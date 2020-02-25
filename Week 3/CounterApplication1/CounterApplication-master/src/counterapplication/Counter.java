@@ -19,6 +19,10 @@ public class Counter {
         return value;
     }
     
+    public int item(int index){
+        return index;
+    }
+    
     @Override
     public String toString() {
         return Integer.toString(this.value);
